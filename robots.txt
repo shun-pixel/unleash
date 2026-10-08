@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shun-pixel.github.io/unleash/sitemap.xml
