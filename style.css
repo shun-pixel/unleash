@@ -589,3 +589,11 @@ a.card:hover .card__img img{transform:scale(1.04)}
 @media (max-width:600px){.sec-head{flex-wrap:wrap;align-items:flex-start}.sec-head .more{white-space:normal}}
 .cond th{width:190px}
 @media (max-width:600px){.cond th{width:100%}}
+
+/* Media: sub headings, text thumbnails, text stat */
+.media-sub{display:flex;align-items:center;gap:12px;font-size:16px;font-weight:900;color:var(--blue-ink);margin:0 0 18px}
+.media-sub::before{content:"";width:22px;height:2px;background:var(--blue)}
+.news-more + .media-sub{margin-top:clamp(40px,5vw,64px)}
+.card__img--text{display:grid;place-items:center;background:linear-gradient(135deg,#FCEDEC,#F2D6D5)}
+.card__img--text span{font-family:var(--font-min);font-size:clamp(22px,2.4vw,30px);font-weight:600;color:var(--blue-ink);letter-spacing:.06em}
+.stat__num--text{font-size:clamp(20px,2vw,28px)}
